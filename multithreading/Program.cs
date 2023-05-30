@@ -20,7 +20,7 @@
             Console.Write("Timer #1 : " + i + " seconds ");
             Thread.Sleep(1000);
         }
-        Console.WriteLine("Timer #1 is complete!");
+        Console.Write("Timer #1 is complete! ");
     }
     public static void CountUp()
     {
@@ -30,6 +30,6 @@
             Console.WriteLine();
             Thread.Sleep(1001);
         }
-        Console.WriteLine("Timer #2 is complete!");
+        Console.Write("Timer #2 is complete!");
     }
 }

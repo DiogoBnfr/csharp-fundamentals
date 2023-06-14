@@ -4,7 +4,6 @@
     {
         Console.Write("Price: " + CheckOut(15.99, 2.27, 122.98, 13.80));
     }
-
     public static double CheckOut(params double[] prices)
     {
         double total = 0;
